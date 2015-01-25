@@ -51,6 +51,7 @@ BOARD_RIL_CLASS := ../../../device/samsung/msm8226-common/ril/
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl.cfg
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+MALLOC_IMPL := jemalloc
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
